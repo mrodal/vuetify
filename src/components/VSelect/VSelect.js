@@ -374,7 +374,8 @@ export default {
           this.genClearIcon(),
           this.genIconSlot()
         ]),
-        this.genMenu()
+        this.genMenu(),
+        this.genProgress()
       ]
     },
     genInput () {
